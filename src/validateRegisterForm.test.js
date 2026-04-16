@@ -14,7 +14,7 @@ describe(`Function 'validateRegisterForm':`, () => {
   });
 
   it(`should return success message for the valid input`, () => {
-    const isValid = validateRegisterForm('test@mail.com', 'P@ssword1!');
+    const isValid = validateRegisterForm('test@mail.com', 'P@ssword2!');
 
     expect(isValid.code).toBe(200);
     expect(isValid.message).toBe('Email and password are valid.');
