@@ -5,7 +5,7 @@
  *
  * @param {string} password
  *
- * @returns {object} 
+ * @returns {object}
  */
 function validateRegisterForm(email, password) {
   const validPassword =
